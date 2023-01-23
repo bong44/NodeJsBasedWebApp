@@ -2,11 +2,11 @@ const maria = require('mariadb');
 
 
 const pool = maria.createPool({
-    "host":"49.170.71.189",
+    "host":"localhost",
     "port":3306,
-    "user":"bong",
-    "password":"bong",
-    "database":"king",
+    "user":"root",
+    "password":"1541",
+    "database":"king_schema",
     "connectionLimit": 30
 })
 
